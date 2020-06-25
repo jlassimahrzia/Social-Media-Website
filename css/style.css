@@ -1,0 +1,64 @@
+.header{
+  height: 100%;
+  background:url('../img/bg.jpg')bottom no-repeat transparent;
+  background-size: cover;
+
+}
+.container_one {
+  position: absolute;
+}
+
+html, body {  margin: 0;  padding: 0;}
+.background {
+   position: absolute;
+
+   top: 0;
+  left: 0;
+  z-index: 10;
+}
+#black-input{
+  background: #DCDCDC;
+}
+
+.divider_clear{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+#fb{
+  color: rgba(0,0,0,.87);
+}
+#fb:hover{
+  background: #1E90FF;
+}
+.site-logo{
+  color: white;
+}
+
+#titre{
+  font-family: OCR A Std, monospace;
+  text-align: center;
+  font-size:40px;
+  height: 50px;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px #00FF00;
+  margin-top: -10%;
+}
+
+.pos-img{
+  height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+  .ui.modal{
+    width: 90%;
+    margin: 0 0 0 -44%;
+  }
+
+.ui.action.input input[type="file"] {
+    display: none;
+}
+
+.ui.modal .header{
+  background: none;
+}

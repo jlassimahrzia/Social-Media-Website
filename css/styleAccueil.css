@@ -1,0 +1,88 @@
+body{
+  background:#36465d
+}
+body.pushable>.pusher{
+  background:#36465d;
+  }
+  #menu_bor{
+    height:7%;
+    background:#36465d;
+  }
+
+  .clear-photo{
+    padding-top: 10%;
+  }
+  .clear-menu{
+    padding-top:5%;
+  }
+
+  .clear-users{
+    padding-top: 5%;
+    padding-left:10%;;
+
+  }
+  .ui.search{
+    transition: background .15s,color .15s;
+    color: hsla(0,0%,100%,.6);
+    padding-right: 10px;
+    padding-bottom: 2px;
+    padding-left: 39px;
+    background: rgba(0,0,0,.13);
+    font-weight: 400;
+    line-height: inherit;
+    font-size: 15px;
+    height: 34px;
+    width: 100%;
+    border: 0;
+    border-radius: 3px;
+  margin-top: 10px;
+  }
+  #carousel {
+  position: relative;
+  width:60%;
+  margin-top:10px;
+  }
+
+  #slides {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 50px;
+  }
+  li span{
+    color:#F0F8FF;
+    font-weight: bold;
+    text-shadow: 1px 1px gray;
+  }
+
+  #slides ul {
+  list-style: none;
+  width:100%;
+  height:50px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  }
+
+  #slides li {
+  width:100%;
+  height:50px;
+  float:left;
+  text-align: center;
+  position: relative;
+  font-family:lato, sans-serif;
+  }
+  .ui.action.input input[type="file"] {
+      display: none;
+  }
+
+  .ui.modal .header{
+    background: none;
+  }
+  .ui.pusher{
+    padding-top: 7%;
+  }
+  #cmt{
+    background: #529ecc ;
+    color:white ;
+  }
